@@ -24,3 +24,15 @@ Things you may want to cover:
 * ...
 
 `rails new app_name --api`
+Add faker gem
+```
+bundle i
+rails g model quote
+```
+Add columns to quotes table
+Add model and controller
+Add seeds
+```
+rake db:migrate
+rake db:seed
+```
