@@ -36,3 +36,8 @@ Add seeds
 rake db:migrate
 rake db:seed
 ```
+Add rspec-rails and factory_bot_rails gems
+```
+bundle i
+bundle exec rails generate rspec:install
+```
